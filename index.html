@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Criptografar e Descriptografar Mensagem</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet"> 
+		<link rel="stylesheet" href="./style.css"/>
+	</head>
+	<body>
+		<header>
+		
+			<a href="https://www.alura.com.br/">
+			<img src="./img/logo-alura.png" alt="Logo Alura"/>
+			</a>
+			
+		</header>
+		<main>
+		
+			<section class="secao1">
+				<div class="escreva_msg">
+				
+					<textarea id="entraTexto" placeholder="Digite sua mensagem aqui..." rows=15></textarea>
+					
+				</div>
+				<div class="info_msg">
+				
+					<img src="./img/circulo-exclamacao.png"/>
+					
+					<p>Apenas letras minúsculas e sem acento.</p>
+					
+				</div>
+				<div class="acoes_msg">
+				
+					<button id="btn_criptar">Criptografar</button>
+					<button id="btn_descriptar">Descriptografar</button>
+					
+				</div>
+			</section>
+			
+			<section class="secao2">
+			
+				<div class="sem_msg">
+				
+					<img src="./img/sem-mensagem.svg" alt="Sem mensagem encontrada"/>
+					
+					<p> <b>Nenhuma mensagem encontrada</b> </p>
+					<p>Digite uma mensagem que você deseja criptografar ou descriptografar.</p>
+					
+				</div>
+				
+				<div class="mostra_msg">
+				
+					<textarea id="saiTexto" rows=10 readonly></textarea>
+					<button id="btn_copiar">Copiar</button>
+					
+				</div>
+				
+			</section>
+		</main>
+		<script src="./scripts.js"></script>
+	</body>
+</html>
