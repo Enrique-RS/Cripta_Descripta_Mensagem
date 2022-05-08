@@ -1,7 +1,7 @@
 		/* DIVISORES DE TELA */
 
-const semMensagem = document.querySelector('.sem_msg');
-const comMensagem = document.querySelector('.mostra_msg');
+const seMensagem = document.querySelector('.sem_msg');
+const coMensagem = document.querySelector('.mostra_msg');
 
 		 /* CAMPOS DE TEXTO */
 const entraTexto		= document.getElementById('entraTexto');
@@ -48,8 +48,8 @@ function criptografar() {
 		}
 	}
 	
-	semMensagem.style.display = 'none';
-	comMensagem.style.display = 'block';
+	seMensagem.style.display = 'none';
+	coMensagem.style.display = 'block';
 
 	saiTexto.value = cripta;
 }
@@ -67,6 +67,9 @@ function descriptografar() {
 		}
 	}
 	
+	seMensagem.style.display = 'none';
+	coMensagem.style.display = 'block';
+
 	saiTexto.value = descripta;
 	
 }
