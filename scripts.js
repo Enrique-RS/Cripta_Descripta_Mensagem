@@ -44,33 +44,40 @@ function criptografar() {
 	let regras = [ ['e', 'enter'], ['i', 'imes'], ['a', 'ai'], ['o', 'ober'], ['u', 'ufat']];
 	
 	cripta = pegaTexto(entraTexto);
-	cripta = cripta.toLowerCase();
 
-	for( let i = 0; i < regras.length; i++) {
-		
-		if(cripta.includes(regras[i][0])){
-			cripta = cripta.replaceAll(regras[i][0], regras[i][1]);
+	if(cripta != null) {
+
+		cripta = cripta.toLowerCase();
+
+		for( let i = 0; i < regras.length; i++) {
+			
+			if(cripta.includes(regras[i][0])){
+				cripta = cripta.replaceAll(regras[i][0], regras[i][1]);
+			}
 		}
+		
+		saiTexto.value = cripta;
 	}
-	
-	saiTexto.value = cripta;
 }
 function descriptografar() {
 	
 	let regras = [ ['enter', 'e'], ['imes', 'i'], ['ai', 'a'], ['ober', 'o'], ['ufat', 'u'] ];
 	
 	descripta = pegaTexto(entraTexto);
-	descripta = descripta.toLowerCase();
-	
-	for( let i = 0; i < regras.length; i++) {
+
+	if(cripta != null) {
+
+		descripta = descripta.toLowerCase();
 		
-		if(descripta.includes(regras[i][0])){
-			descripta = descripta.replaceAll(regras[i][0], regras[i][1]);
+		for( let i = 0; i < regras.length; i++) {
+			
+			if(descripta.includes(regras[i][0])){
+				descripta = descripta.replaceAll(regras[i][0], regras[i][1]);
+			}
 		}
+		
+		saiTexto.value = descripta;
 	}
-	
-	saiTexto.value = descripta;
-	
 }
 function copia() {
 	
