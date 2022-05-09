@@ -8,9 +8,9 @@ button {border-radius: 25px; border: 1px solid #072B61; color: #072B61; font-wei
 button:hover {background-color: #072B61; color: #FFF;}
 
 /* DIVs */
-.escreva_msg {width:100%; display: flex; align-items: center;}
+.escreva_msg {width: 100%; display: flex; align-items: center;}
 
-#entraTexto {min-width: 90%; background-color: #E9ECF8;}
+#entraTexto {width: 90%; background-color: #E9ECF8;}
 
 .info_msg {display: flex;}
 .info_msg img {display: inline-block}
@@ -32,7 +32,7 @@ button:hover {background-color: #072B61; color: #FFF;}
 
 #saiTexto {width: 90%;}
 
-@media only screen and (min-width: 801px) {
+@media only screen and (min-width: 901px) {
 
     header {width: 10%; padding: 40px 0;}
 
@@ -47,7 +47,7 @@ button:hover {background-color: #072B61; color: #FFF;}
 
     /* DIVs */
 
-    #entraTexto {height: 50%; margin: 25px auto;}
+    #entraTexto {height: 350px; margin: 25px auto;}
 
     .info_msg {margin: 10px; margin-left: 40px;}
     .info_msg p {font-size: 14px;}
@@ -66,13 +66,13 @@ button:hover {background-color: #072B61; color: #FFF;}
 
     .mostra_msg {height: 100%; padding: 20px;}
     
-    #saiTexto {height: 75% ;margin: 10px auto;}
+    #saiTexto {height: 70% ;margin: 10px auto;}
 
     #btn_copiar {width: 90%; height: auto; margin: 10px auto; padding: 20px;}
 
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
 
     body {flex-direction: column;}
 
@@ -89,12 +89,12 @@ button:hover {background-color: #072B61; color: #FFF;}
 
     /* DIVs */
 
-    #entraTexto {margin: 25px auto;}
+    #entraTexto {margin: 25px auto; height: 400px;}
 
     .info_msg {margin: 10px; margin-left: 40px;}
     .info_msg p {font-size: 14px;}
 
-    .acoes_msg button {width: 40%;margin: 10px 0; padding: 25px}
+    .acoes_msg button {width: 40%; margin: 10px 0; padding: 25px}
 
     /* SECTION 2*/
     .saida_msg {width: 90%; margin: 50px auto;}
@@ -113,7 +113,7 @@ button:hover {background-color: #072B61; color: #FFF;}
     #btn_copiar {width: 90%; margin: 10px auto; padding: 20px}
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
 
     body {flex-direction: column;}
 
@@ -128,12 +128,12 @@ button:hover {background-color: #072B61; color: #FFF;}
 
     /* DIVs */
 
-    #entraTexto {margin: 25px 10px;}
+    #entraTexto {margin: 25px 10px; height: 250px;}
 
     .info_msg {margin: 10px;}
     .info_msg p {font-size: 14px;}
 
-    .acoes_msg button {margin: 10px 0; padding: 20px}
+    .acoes_msg button {margin: 10px 0; padding: 20px; font-size: 12px;}
 
     /* SECTION 2*/
     .saida_msg {width: 90%; margin: 10px auto;}
@@ -149,5 +149,5 @@ button:hover {background-color: #072B61; color: #FFF;}
     
     #saiTexto {margin: 10px auto;}
 
-    #btn_copiar {width: 90%; margin: 10px auto; padding: 15px}
+    #btn_copiar {width: 90%; margin: 10px auto; padding: 15px; font-size: 16px;}
 }
