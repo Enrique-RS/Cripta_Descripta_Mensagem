@@ -31,7 +31,7 @@ button:hover {background-color: #072B61; color: #FFF;}
 .mostra_msg {display: none; flex-direction: column;}
 
 #saiTexto {width: 90%;}
-
+/*
 @media only screen and (min-width: 801px) {
 
     header {width: 10%; padding: 40px 0;}
@@ -42,10 +42,10 @@ button:hover {background-color: #072B61; color: #FFF;}
 
     button {font-size: 18px;}
 
-    /* SECTION 1*/
+    
     .entrada_msg { width: 60%; flex-shrink: 0; margin-bottom: 25px;}
 
-    /* DIVs */
+    
 
     #entraTexto {height: 50%; margin: 25px auto;}
 
@@ -54,10 +54,10 @@ button:hover {background-color: #072B61; color: #FFF;}
 
     .acoes_msg button {width: 40%; flex-shrink: 0; margin: 10px 0; padding: 25px;}
 
-    /* SECTION 2*/
+    
     .saida_msg {width: auto; height: 90%; margin: auto 25px;}
 
-    /* DIVs */
+    
     .sem_msg {padding: 20px;}
 
     .sem_msg img {margin: 15px;}
@@ -71,7 +71,7 @@ button:hover {background-color: #072B61; color: #FFF;}
     #btn_copiar {width: 90%; height: auto; margin: 10px auto; padding: 20px;}
 
 }
-
+*/
 @media only screen and (max-width: 800px) {
 
     body {flex-direction: column;}
