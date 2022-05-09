@@ -8,9 +8,9 @@ button {border-radius: 25px; border: 1px solid #072B61; color: #072B61; font-wei
 button:hover {background-color: #072B61; color: #FFF;}
 
 /* DIVs */
-.escreva_msg {display: flex; align-items: center;}
+.escreva_msg {width:100%; display: flex; align-items: center;}
 
-#entraTexto {width: 90%; background-color: #E9ECF8;}
+#entraTexto {min-width: 90%; background-color: #E9ECF8;}
 
 .info_msg {display: flex;}
 .info_msg img {display: inline-block}
@@ -22,9 +22,9 @@ button:hover {background-color: #072B61; color: #FFF;}
 .saida_msg {background-color: #FFF; border-radius: 15px;}
 
 /* DIVs */
-.sem_msg {display: flex; flex-direction: column;}
+.sem_msg {display: flex; flex-direction: column; align-items: center;}
 
-.sem_msg img {width: 90%;}
+.sem_msg img {width: 75%;}
 .sem_msg p {text-align: center;}
 .sem_msg p b {font-weight: bold;}
 
@@ -34,28 +34,28 @@ button:hover {background-color: #072B61; color: #FFF;}
 
 @media only screen and (min-width: 801px) {
 
-    header {padding: 40px 0;}
+    header {width: 10%; padding: 40px 0;}
 
-    main {display: flex; justify-content: center; align-items: center;}
+    main {width: auto; display: flex; justify-content: center; align-items: center;}
 
     textarea {font-size: 28px;}
 
     button {font-size: 18px;}
 
     /* SECTION 1*/
-    .entrada_msg {width: 60%; margin-bottom: 25px;}
+    .entrada_msg { width: 60%; flex-shrink: 0; margin-bottom: 25px;}
 
     /* DIVs */
 
-    #entraTexto {margin: 25px auto;}
+    #entraTexto {height: 50%; margin: 25px auto;}
 
     .info_msg {margin: 10px; margin-left: 40px;}
     .info_msg p {font-size: 14px;}
 
-    .acoes_msg button {width: 40%; margin: 10px 0; padding: 25px;}
+    .acoes_msg button {width: 40%; flex-shrink: 0; margin: 10px 0; padding: 25px;}
 
     /* SECTION 2*/
-    .saida_msg {width: 40%; height: 90%; margin: auto 50px;}
+    .saida_msg {width: auto; height: 90%; margin: auto 25px;}
 
     /* DIVs */
     .sem_msg {padding: 20px;}
