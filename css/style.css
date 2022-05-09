@@ -31,7 +31,7 @@ button:hover {background-color: #072B61; color: #FFF;}
 .mostra_msg {display: none; flex-direction: column;}
 
 #saiTexto {width: 90%;}
-/*
+
 @media only screen and (min-width: 801px) {
 
     header {width: 10%; padding: 40px 0;}
@@ -42,11 +42,10 @@ button:hover {background-color: #072B61; color: #FFF;}
 
     button {font-size: 18px;}
 
-    
+    /* SECTION */
     .entrada_msg { width: 60%; flex-shrink: 0; margin-bottom: 25px;}
 
-    
-
+    /* DIVs */
     #entraTexto {height: 50%; margin: 25px auto;}
 
     .info_msg {margin: 10px; margin-left: 40px;}
@@ -54,10 +53,10 @@ button:hover {background-color: #072B61; color: #FFF;}
 
     .acoes_msg button {width: 40%; flex-shrink: 0; margin: 10px 0; padding: 25px;}
 
-    
+    /* SECTION */
     .saida_msg {width: auto; height: 90%; margin: auto 25px;}
 
-    
+    /* DIVs */
     .sem_msg {padding: 20px;}
 
     .sem_msg img {margin: 15px;}
@@ -71,7 +70,7 @@ button:hover {background-color: #072B61; color: #FFF;}
     #btn_copiar {width: 90%; height: auto; margin: 10px auto; padding: 20px;}
 
 }
-*/
+
 @media only screen and (max-width: 800px) {
 
     body {flex-direction: column;}
@@ -84,7 +83,7 @@ button:hover {background-color: #072B61; color: #FFF;}
 
     button {font-size: 18px;}
 
-    /* SECTION 1*/
+    /* SECTION */
     .entrada_msg {margin-bottom: 25px;}
 
     /* DIVs */
@@ -96,7 +95,7 @@ button:hover {background-color: #072B61; color: #FFF;}
 
     .acoes_msg button {width: 40%;margin: 10px 0; padding: 25px}
 
-    /* SECTION 2*/
+    /* SECTION */
     .saida_msg {width: 90%; margin: 50px auto;}
 
     /* DIVs */
@@ -123,7 +122,7 @@ button:hover {background-color: #072B61; color: #FFF;}
 
     textarea {font-size: 18px;}
 
-    /* SECTION 1*/
+    /* SECTION */
     .entrada_msg {margin-bottom: 25px;}
 
     /* DIVs */
@@ -135,7 +134,7 @@ button:hover {background-color: #072B61; color: #FFF;}
 
     .acoes_msg button {margin: 10px 0; padding: 20px}
 
-    /* SECTION 2*/
+    /* SECTION */
     .saida_msg {width: 90%; margin: 10px auto;}
 
     /* DIVs */
