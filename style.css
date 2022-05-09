@@ -1,0 +1,153 @@
+html {font-family: 'Roboto', sans-serif;}
+
+body {display: flex; background-color: #E9ECF8;}
+
+textarea {padding: 10px; border-radius: 15px; border: none; color: #0A3871; resize: none;}
+
+button {border-radius: 25px; border: 1px solid #072B61; color: #072B61; font-weight: bold;}
+button:hover {background-color: #072B61; color: #FFF;}
+
+/* DIVs */
+.escreva_msg {width:100%; display: flex; align-items: center;}
+
+#entraTexto {min-width: 90%; background-color: #E9ECF8;}
+
+.info_msg {display: flex;}
+.info_msg img {display: inline-block}
+.info_msg p {margin-left: 7px;}
+
+.acoes_msg {display: flex; justify-content: space-around;}
+
+/* SECTION 2*/
+.saida_msg {background-color: #FFF; border-radius: 15px;}
+
+/* DIVs */
+.sem_msg {display: flex; flex-direction: column; align-items: center;}
+
+.sem_msg img {width: 75%;}
+.sem_msg p {text-align: center;}
+.sem_msg p b {font-weight: bold;}
+
+.mostra_msg {display: none; flex-direction: column;}
+
+#saiTexto {width: 90%;}
+
+@media only screen and (min-width: 801px) {
+
+    header {width: 10%; padding: 40px 0;}
+
+    main {width: auto; display: flex; justify-content: center; align-items: center;}
+
+    textarea {font-size: 28px;}
+
+    button {font-size: 18px;}
+
+    /* SECTION 1*/
+    .entrada_msg { width: 60%; flex-shrink: 0; margin-bottom: 25px;}
+
+    /* DIVs */
+
+    #entraTexto {height: 50%; margin: 25px auto;}
+
+    .info_msg {margin: 10px; margin-left: 40px;}
+    .info_msg p {font-size: 14px;}
+
+    .acoes_msg button {width: 40%; flex-shrink: 0; margin: 10px 0; padding: 25px;}
+
+    /* SECTION 2*/
+    .saida_msg {width: auto; height: 90%; margin: auto 25px;}
+
+    /* DIVs */
+    .sem_msg {padding: 20px;}
+
+    .sem_msg img {margin: 15px;}
+    .sem_msg p {margin: 15px auto; font-size: 24px;}
+    .sem_msg p b {font-size: 36px;}
+
+    .mostra_msg {height: 100%; padding: 20px;}
+    
+    #saiTexto {height: 75% ;margin: 10px auto;}
+
+    #btn_copiar {width: 90%; height: auto; margin: 10px auto; padding: 20px;}
+
+}
+
+@media only screen and (max-width: 800px) {
+
+    body {flex-direction: column;}
+
+    header {padding: 40px 0;}
+
+    main {justify-content: center; align-items: center;}
+
+    textarea {font-size: 28px;}
+
+    button {font-size: 18px;}
+
+    /* SECTION 1*/
+    .entrada_msg {margin-bottom: 25px;}
+
+    /* DIVs */
+
+    #entraTexto {margin: 25px auto;}
+
+    .info_msg {margin: 10px; margin-left: 40px;}
+    .info_msg p {font-size: 14px;}
+
+    .acoes_msg button {width: 40%;margin: 10px 0; padding: 25px}
+
+    /* SECTION 2*/
+    .saida_msg {width: 90%; margin: 50px auto;}
+
+    /* DIVs */
+    .sem_msg {padding: 25px 5px;}
+
+    .sem_msg img {display: none;}
+    .sem_msg p {margin: 10px auto; font-size: 24px;}
+    .sem_msg p b {font-size: 36px;}
+
+    .mostra_msg {padding: 5px;}
+    
+    #saiTexto {margin: 10px auto;}
+
+    #btn_copiar {width: 90%; margin: 10px auto; padding: 20px}
+}
+
+@media only screen and (max-width: 480px) {
+
+    body {flex-direction: column;}
+
+    header {padding: 10px 0;}
+
+    main {justify-content: center; align-items: center;}
+
+    textarea {font-size: 18px;}
+
+    /* SECTION 1*/
+    .entrada_msg {margin-bottom: 25px;}
+
+    /* DIVs */
+
+    #entraTexto {margin: 25px 10px;}
+
+    .info_msg {margin: 10px;}
+    .info_msg p {font-size: 14px;}
+
+    .acoes_msg button {margin: 10px 0; padding: 20px}
+
+    /* SECTION 2*/
+    .saida_msg {width: 90%; margin: 10px auto;}
+
+    /* DIVs */
+    .sem_msg {padding: 25px 5px;}
+
+    .sem_msg img {display: none;}
+    .sem_msg p {margin: 10px auto;}
+    .sem_msg p b {font-size: 24px;}
+
+    .mostra_msg {padding: 5px;}
+    
+    #saiTexto {margin: 10px auto;}
+
+    #btn_copiar {width: 90%; margin: 10px auto; padding: 15px}
+}
